@@ -1,0 +1,95 @@
+.providerCont {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  margin-top: 100px;
+  background-color: white;
+}
+.providerCards {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.cardImage {
+  width: 90%;
+  height: 65px;
+  border-radius: 15px;
+}
+.cardImage.active {
+  border: 1px solid rgb(0, 166, 255);
+}
+.backdropCont {
+  position: absolute;
+  top: -50px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.providerBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px 0 10px;
+  background-color: rgb(0, 166, 255);
+  height: 40px;
+  width: 100%;
+  color: white;
+  overflow: scroll;
+  position: sticky;
+  top: 0;
+}
+.providerCounter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+.innerProvider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 180px;
+  margin-bottom: 5px;
+}
+.footerCont {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+}
+.footItem {
+  color: #3d3d3d88;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footItem.active{
+    color: "";
+}

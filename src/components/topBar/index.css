@@ -1,0 +1,51 @@
+.topBarCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:  10px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  width: 100%;
+}
+
+.leftCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+}
+.threeBarSvg {
+  height: 20px;
+  margin-right: 10px;
+}
+.siteNameSvg {
+  height: 20px;
+}
+
+.rightCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 125px;
+}
+.walletMoneyCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.moneyCont{
+    margin-left: 10px;
+    size: 1rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.dividerImg {
+    height: 30px;
+}
